@@ -93,6 +93,13 @@ export const CLI_TARGET_MANIFEST = Object.freeze({
     configure: true,
     runModel: null,
   }),
+  "hermes-agent": Object.freeze({
+    description: "Hermes Agent",
+    aliases: Object.freeze(["hermes"]),
+    run: false,
+    configure: true,
+    runModel: null,
+  }),
 });
 
 /**
